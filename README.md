@@ -51,7 +51,7 @@ that lead to good relative errors for the datasets that we have used.
 For sequence-based sliding window, there is a parameter called “power of γ ”, which sets the sampling probability based on the ratio of the memory budget to the window size M/W . For example, when M/W is 5%, set this parameter to be 28, as 0.9 28 ≈ 0.05. Note that this code uses a default value of 0.9 for γ.
 
 <p align="center">
-  <img src="media/fleet.gif"/>
+  <img src="media/fleet.gif"  width = 1000 height = 650/>
 </p>
 
 <h2> Our Previous Work on Butterfly Counting in Static Bipartite Graphs</h2>
