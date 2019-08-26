@@ -38,13 +38,13 @@ To compile the code, make sure two prerequisite software already be installed on
   - C++ Compiler: g++ or visual studio C++, support C++11 standard.
   
 Our code includes the file CMakeLists.txt for program build, please use the following steps to compile and build to generate executable program:
-  - In the source code folder, type “cmake CMakeLists.txt”.
-  - Run “make”, there will generate executable program named ”stream_bfly”.
-  - Run “./stream_bfly [option]” to start, where option is the algorithm name. For example, use command “./stream_bfly Fleet1” to run the Fleet1 algorithm. Please refer main.cpp for all the algorithm names.
+  - In the main folder of this repo, type “cmake .” (twice).
+  - Run “make”, there will generate executable program named ”fleet”.
+  - Run “./fleet [option]” to start, where option is the algorithm name. For example, use command “./fleet Fleet1” to run the Fleet1 algorithm. Please refer main.cpp for all the algorithm names.
   
 
 <h3> Parameter Settings </h3>
-Our program provides a user-friendly way to interactively input the parameters. After execute the “stream_bfly” command, please check the printed messages to type in the parameters. The parameter γ is the sub-sampling probability – please refer to the paper
+Our program provides a user-friendly way to interactively input the parameters. After execute the “fleet” command, please check the printed messages to type in the parameters. The parameter γ is the sub-sampling probability – please refer to the paper
 for the impact of this parameter. A good value for this parameter is 0.75. The parameter M is the reservoir size – please refer to the experiments section of the paper to get an idea of the ranges of M
 that lead to good relative errors for the datasets that we have used.
 
