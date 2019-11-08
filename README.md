@@ -1,10 +1,13 @@
 <h1 align="center">FLEET:  Butterfly Estimation from a Bipartite Graph Stream</h1>
 
 <h3>Paper</h3>
+<h4>
 You may find our paper on ArXiv: https://pdfs.semanticscholar.org/0f05/3a75fbba33ec765faa723d258d9fe87f9813.pdf
-
+</h4>
+<h4>
 Our paper is published in CIKM2019: https://dl.acm.org/citation.cfm?id=3357983
-
+</h4>
+<h4>
 Please use the following BiBTeX for citing our paper:
 
 ```bibtex
@@ -17,6 +20,7 @@ Please use the following BiBTeX for citing our paper:
   organization={ACM}
 }
 ```
+</h4>
 
 <h3>Abstract</h3>
 We consider space-efcient single-pass estimation of the number
