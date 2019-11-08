@@ -3,7 +3,9 @@
 <h3>Paper</h3>
 You may find our paper on ArXiv: https://pdfs.semanticscholar.org/0f05/3a75fbba33ec765faa723d258d9fe87f9813.pdf
 Our paper is published in CIKM2019: https://dl.acm.org/citation.cfm?id=3357983
+
 Please use the following BiBTeX for citing our paper:
+
 ```bibtex
 @inproceedings{sanei2019fleet,
   title={FLEET: Butterfly Estimation from a Bipartite Graph Stream},
