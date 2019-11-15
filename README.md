@@ -2,7 +2,7 @@
 
 <h3>Paper</h3>
 <h4>
-You may find our paper on ArXiv: https://pdfs.semanticscholar.org/0f05/3a75fbba33ec765faa723d258d9fe87f9813.pdf
+You may find our paper on ArXiv: https://arxiv.org/abs/1812.03398
 </h4>
 <h4>
 Our paper is published in CIKM2019: https://dl.acm.org/citation.cfm?id=3357983
