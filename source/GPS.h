@@ -10,6 +10,8 @@ extern std::mt19937_64 gen;
 extern std::uniform_real_distribution<double> dbl_ran;
 const long long SHIFT = 1000 * 1000 * 100;
 
+#define mmin(x,y) ((x)>(y)?(y):(x))
+
 class GPS {
 public:
 	GPS(reservoir);
@@ -22,7 +24,7 @@ private:
 	double ran_double();
 	long double bfc_per_edge_martingale(std::unordered_set <int> &adj_fst, std::unordered_set <int> &adj_sec, reservoir &R, int fst, int sec, int side);
 	inline long long to_hash(int A, int B) { return A * SHIFT + B; }
-	inline double prob(double weight) { return std::fabs(this->z_star) <= 1e-6 ? 1.0 : weight / this->z_star; }
+	inline double prob(double weight) { return mmin(1.0, std::fabs(this->z_star) <= 1e-6 ? 1.0 : weight / this->z_star); }
 	inline double compute_weight(int& A, int& B) {
 		return 16.0 * bfc_per_edge(A, B, this->R) + 1.0;	
 	}
