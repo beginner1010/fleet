@@ -102,6 +102,7 @@ void GPS::GPS_update(int& A, int& B, reservoir &R) {
 	int rem_B = (*rank_set.begin()).second.second;
 	long long rem_hash = to_hash(rem_A, rem_B);
 
+    z_star = mmax(z_star, (*rank_set.begin()).first);
 	R.remove_edge_from_sampled_graph(rem_A, rem_B);
 	idx_in_reservoir.erase(rem_hash);
 	lookup_weight.erase(rem_hash);
